@@ -28,7 +28,7 @@ if ( sizeof($request_array['events']) > 0 ) {
         else{
             $sendtext = '...';
         }    
-        }
+        
         $data = [
             'replyToken' => $reply_token,
             // 'messages' => [['type' => 'text', 'text' => json_encode($request_array) ]]  Debug Detail message
